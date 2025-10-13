@@ -1,0 +1,131 @@
+# str1="this is a string"
+# str2="hello world. \n This is a new line."
+# print(str1)
+# print(str2)
+
+#concatenation
+
+# str1="Bidisha"
+# print(len(str1))
+# str2="Das"
+# string2=len(str2)
+# print(string2)
+# final_string=str1+" "+str2
+# print(final_string)
+# print(len(final_string))
+
+#indexing
+
+# str="Bidisha das"
+# print(str[7])
+
+#slicing
+# str="Bidisha das"
+# print(str[0:4])
+# print(str[0:7])
+# print(str[8:11])
+# print(str[:7])
+
+# print(str[-11:-4])
+# print(str[-3:])
+
+
+
+#some functions
+
+# string="hello world. The world is gorgeous."
+# print(string.endswith("geous."))
+# print(string.endswith("is."))
+# string=string.capitalize()
+# print(string.capitalize())
+# print(string)
+
+# print(string.replace("world","earth"))
+
+# print(string.find("w"))
+
+# print(string.find("Hello"))
+
+
+# print(string.count("Hello"))
+
+# print(string.count("world"))
+
+
+# Q.1
+
+# name=input("Enter Your First Name: ")
+# length=len(name)
+# print("Length of your name: ",length)
+
+
+#Q.2
+# dollar="i am $1000 .$ is a symbol. $ is used in programming."
+# print(dollar.find("$"))
+
+
+#conditionals
+
+# light=input("Enter the traffic light colour: ")
+
+# if(light=="red"):
+#     print("stop.")
+# elif(light=="green"):
+#     print("go.")
+# elif(light=="yellow"):
+#     print("get ready.")
+# else:
+#     print("wrong input.")            
+
+
+
+
+# marks=int(input("Enter Student's marks: "))
+
+# if(marks>=90):
+#     print("grade A")
+# elif(marks>=80 and marks<90):
+#     print("grade B")
+# elif(marks>=70 and marks<80):
+#     print("grade C")
+# elif(marks<70):
+#     print("grade D")       
+# 
+
+
+#Q.3.
+
+
+# num=int(input("Enter a number: "))
+
+# if(num%2==0):
+#     print("The number is even.")
+# else:
+#     print("the number is odd.")    
+
+
+#Q.4
+
+# num1=int(input("Enter first number: "))
+# num2=int(input("Enter second number: "))
+# num3=int(input("Enter third number: "))
+
+# if(num1>num2 and num1>num3):
+#     print("First number is the greatest.")
+# elif(num2>num1 and num2>num3):
+#     print("Second number is the greatest.")
+# else:
+#     print("Third number is the greatest.")
+
+
+#Q.5
+
+
+number=int(input("Enter a number: "))
+
+if(number%7==0):
+    print("The number is a multiple of 7.")
+else:
+    print("The number is not a multiple of 7.")
+
+
