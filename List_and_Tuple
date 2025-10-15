@@ -1,0 +1,91 @@
+marks=[23,45,68.9,88,90.05]
+print(type(marks))
+print(len(marks))
+print(marks[3])
+
+
+student=["Karan",24,"B.tech",]
+print(student)
+student[0]="Bidisha"
+print(student)
+
+
+#list slicing
+
+mark=[23,45,67,89,76,90]
+print(mark[1:4])
+print(mark[:5])
+print(mark[1:])
+print(mark[-4:-1])
+
+
+#list methods
+
+num=[1,7,1,3,4]
+num.append(20)
+num.sort()
+num.sort(reverse=True)
+num.reverse()
+num.insert(1,10)
+num.remove(1) #removes first occurrence of 1
+num.pop(1) #removes element at index 1
+print(num)
+
+
+
+#tuples
+
+tup=(1,4,7,10,45)
+print(type(tup))
+print(tup[2])
+#we can create an empty tuple also
+#single elwement tuple
+tuple=(1,2)
+print(type(tuple))
+print(tuple)
+
+
+tup1=(90)
+print(type(tup1))
+
+
+#tuple methods
+
+t=(1,4,7,10,45,7,10)
+
+print(t.index(10)) #gives index of first occurrence of 10
+print(t.count(7)) #gives count of 7 in the tuple
+
+
+
+
+#Q.1
+
+movie1=input("Enter First favourite movie: ")
+movie2=input("Enter Second favourite movie: ")
+movie3=input("Enter Third favourite movie: ")
+
+mov_list=[movie1,movie2,movie3]
+print(mov_list)
+
+#Q.2
+
+list1=[1,2,3,2,2]
+
+
+copy_list=list1.copy()
+copy_list.reverse()
+
+if(list1==copy_list):
+    print("The list is a palindrome.")
+else:
+    print("The list is not a palindrome.")    
+
+
+#Q.3
+
+Grades=("C","D","A","A","B","B","A")  
+print("number of students having grade A is: ",Grades.count("A")) 
+Grades=["C","D","A","A","B","B","A"] 
+Grades.sort()
+print(Grades)
