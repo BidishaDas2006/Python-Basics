@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
  str1="this is a string"
  str2="hello world. \n This is a new line."
  print(str1)
@@ -28,6 +29,38 @@
 
  print(str[-11:-4])
  print(str[-3:])
+=======
+str1="this is a string"
+str2="hello world. \n This is a new line."
+print(str1)
+print(str2)
+
+#concatenation
+
+str1="Bidisha"
+print(len(str1))
+str2="Das"
+string2=len(str2)
+print(string2)
+final_string=str1+" "+str2
+print(final_string)
+print(len(final_string))
+
+#indexing
+
+str="Bidisha das"
+print(str[7])
+
+#slicing
+str="Bidisha das"
+print(str[0:4])
+print(str[0:7])
+print(str[8:11])
+print(str[:7])
+
+print(str[-11:-4])
+print(str[-3:])
+>>>>>>> Stashed changes
 
 
 
@@ -75,12 +108,17 @@
  elif(light=="yellow"):
      print("get ready.")
  else:
+<<<<<<< Updated upstream
      print("wrong input.")            
+=======
+     print("wrong input.")
+>>>>>>> Stashed changes
 
 
 
 
  marks=int(input("Enter Student's marks: "))
+<<<<<<< Updated upstream
 
  if(marks>=90):
      print("grade A")
@@ -91,6 +129,18 @@
  elif(marks<70):
      print("grade D")       
  
+=======
+
+ if(marks>=90):
+     print("grade A")
+ elif(marks>=80 and marks<90):
+     print("grade B")
+ elif(marks>=70 and marks<80):
+     print("grade C")
+ elif(marks<70):
+     print("grade D")       
+
+>>>>>>> Stashed changes
 
 
 #Q.3.
@@ -99,7 +149,11 @@
  num=int(input("Enter a number: "))
 
  if(num%2==0):
+<<<<<<< Updated upstream
      print("The number is even.")
+=======
+    print("The number is even.")
+>>>>>>> Stashed changes
  else:
      print("the number is odd.")    
 
