@@ -37,8 +37,8 @@ print(list(student.values()))
 print(list(student.items()))
 print(student.get("name"))
 
-#student.update({"City" : "Kolkata"})
-#print(student)
+student.update({"City" : "Kolkata"})
+print(student)
 
 new_dict={"name" :"Java","age":34}
 student.update(new_dict)
@@ -64,8 +64,8 @@ group.add("bidisha")
 group.add((2,3,4,5))
 print(group) 
 group.remove(2)
-#group.clear()
-#group.pop()
+group.clear()
+group.pop()
 print(group)
 
 
